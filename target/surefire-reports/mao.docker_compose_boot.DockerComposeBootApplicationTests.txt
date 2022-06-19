@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: mao.docker_compose_boot.DockerComposeBootApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.42 s - in mao.docker_compose_boot.DockerComposeBootApplicationTests

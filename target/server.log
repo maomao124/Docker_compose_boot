@@ -1,0 +1,15 @@
+2022-06-19 13:59:34.286  INFO 15228 --- [main] m.d.DockerComposeBootApplication         : Starting DockerComposeBootApplication v0.0.1-SNAPSHOT using Java 16.0.2 on mao with PID 15228 (H:\程序\大三下期\Docker_compose_boot\target\Docker_compose_boot-0.0.1-SNAPSHOT.jar started by mao in H:\程序\大三下期\Docker_compose_boot\target)
+2022-06-19 13:59:34.289 DEBUG 15228 --- [main] m.d.DockerComposeBootApplication         : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-19 13:59:34.290  INFO 15228 --- [main] m.d.DockerComposeBootApplication         : The following 1 profile is active: "dev"
+2022-06-19 13:59:35.074  INFO 15228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-19 13:59:35.079  INFO 15228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-19 13:59:35.116  INFO 15228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2022-06-19 13:59:35.931  INFO 15228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-19 13:59:35.941  INFO 15228 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-19 13:59:35.942  INFO 15228 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-19 13:59:36.013  INFO 15228 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-19 13:59:36.014  INFO 15228 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1660 ms
+2022-06-19 13:59:36.116  INFO 15228 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-19 13:59:36.324  INFO 15228 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-19 13:59:37.664  INFO 15228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-19 13:59:37.685  INFO 15228 --- [main] m.d.DockerComposeBootApplication         : Started DockerComposeBootApplication in 4.069 seconds (JVM running for 4.568)

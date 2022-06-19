@@ -54,3 +54,14 @@
 2022-06-19 13:58:54.382  INFO 20284 --- [restartedMain] m.d.DockerComposeBootApplication         : Started DockerComposeBootApplication in 2.333 seconds (JVM running for 3.211)
 2022-06-19 13:58:57.449  INFO 20284 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2022-06-19 13:58:57.450  INFO 20284 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-19 13:59:19.953  INFO 19104 --- [main] m.d.DockerComposeBootApplicationTests    : Starting DockerComposeBootApplicationTests using Java 16.0.2 on mao with PID 19104 (started by mao in H:\程序\大三下期\Docker_compose_boot)
+2022-06-19 13:59:19.954 DEBUG 19104 --- [main] m.d.DockerComposeBootApplicationTests    : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-19 13:59:19.955  INFO 19104 --- [main] m.d.DockerComposeBootApplicationTests    : The following 1 profile is active: "dev"
+2022-06-19 13:59:20.638  INFO 19104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-19 13:59:20.641  INFO 19104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-19 13:59:20.666  INFO 19104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2022-06-19 13:59:21.194  INFO 19104 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-19 13:59:21.458  INFO 19104 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-19 13:59:23.952  INFO 19104 --- [main] m.d.DockerComposeBootApplicationTests    : Started DockerComposeBootApplicationTests in 4.428 seconds (JVM running for 5.35)
+2022-06-19 13:59:24.639  INFO 19104 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-19 13:59:24.640  INFO 19104 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
