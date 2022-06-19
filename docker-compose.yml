@@ -1,0 +1,72 @@
+version: "3"
+
+services:
+  boot:
+# 镜像名称
+    image: docker_compose_boot:1.0
+# 生成后的容器名称
+    container_name: docker_compose_boot1
+#映射的端口号
+    ports:
+      - "8080:8080"
+#容器数据卷
+    #volumes:
+     # - H:/Docker/docker_compose_boot1/:/usr/local/
+#使用的网络
+    networks: 
+      - mao_net 
+#依赖
+    depends_on: 
+      - redis
+      - mysql
+
+ 
+
+  redis:
+  # 镜像名称
+    image: redis
+    # 生成后的容器名称
+    container_name: compose_redis
+    #映射的端口号
+    ports:
+      - "6383:6379"
+     #容器数据卷 
+    volumes:
+      - H:/Docker/docker_compose_redis/conf/redis.conf:/etc/redis/redis.conf
+      - H:/Docker/docker_compose_redis/data:/data
+    #使用的网络
+    networks: 
+      - mao_net
+    #命令
+    command: redis-server /etc/redis/redis.conf
+
+ 
+
+  mysql:
+  # 镜像名称
+    image: mysql
+  # 生成后的容器名称
+    container_name: compose_mysql
+   # 环境配置
+    environment:
+   #密码
+      MYSQL_ROOT_PASSWORD: '123456'
+      MYSQL_DATABASE: 'test'
+    # 端口
+    ports:
+       - "3310:3306"
+   #容器数据卷 
+    volumes:
+       - H:/Docker/docker_compose_mysql/data:/var/lib/mysql
+       - H:/Docker/docker_compose_mysql/conf/:/etc/mysql/conf.d
+       - H:/Docker/docker_compose_mysql/log/:/var/log/mysql
+   # 使用的网络
+    networks:
+      - mao_net
+
+    #command: --default-authentication-plugin=mysql_native_password #解决外部无法访问
+
+ 
+#网络
+networks: 
+   mao_net: 
