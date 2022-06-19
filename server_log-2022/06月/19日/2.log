@@ -1,0 +1,101 @@
+2022-06-19 13:36:41.684  INFO 10924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-19 13:36:41.692  INFO 10924 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-19 13:36:41.692  INFO 10924 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-19 13:36:41.756  INFO 10924 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-19 13:36:41.756  INFO 10924 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 990 ms
+2022-06-19 13:36:41.819  INFO 10924 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-19 13:36:41.916  INFO 10924 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-19 13:36:42.674  INFO 10924 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-19 13:36:42.710  INFO 10924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-19 13:36:42.721  INFO 10924 --- [restartedMain] m.d.DockerComposeBootApplication         : Started DockerComposeBootApplication in 2.328 seconds (JVM running for 2.898)
+2022-06-19 13:37:42.981  INFO 10924 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-19 13:37:42.981  INFO 10924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-19 13:37:42.982  INFO 10924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-19 13:37:43.255 DEBUG 10924 --- [http-nio-8080-exec-1] m.d.mapper.StudentMapper.selectList      : ==>  Preparing: SELECT student_no,name,sex,telephone_number,family_telephone_number,birthday,address,id_card,email,dormitory_number,class_no,state,remarks FROM student
+2022-06-19 13:37:43.270 DEBUG 10924 --- [http-nio-8080-exec-1] m.d.mapper.StudentMapper.selectList      : ==> Parameters: 
+2022-06-19 13:37:43.329 DEBUG 10924 --- [http-nio-8080-exec-1] m.d.mapper.StudentMapper.selectList      : <==      Total: 607
+2022-06-19 13:38:26.288  INFO 10924 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-19 13:38:26.291  INFO 10924 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-19 13:38:29.828  INFO 19500 --- [restartedMain] m.d.DockerComposeBootApplication         : Starting DockerComposeBootApplication using Java 16.0.2 on mao with PID 19500 (H:\程序\大三下期\Docker_compose_boot\target\classes started by mao in H:\程序\大三下期\Docker_compose_boot)
+2022-06-19 13:38:29.828 DEBUG 19500 --- [restartedMain] m.d.DockerComposeBootApplication         : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-19 13:38:29.829  INFO 19500 --- [restartedMain] m.d.DockerComposeBootApplication         : The following 1 profile is active: "dev"
+2022-06-19 13:38:29.863  INFO 19500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-19 13:38:29.863  INFO 19500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-19 13:38:30.338  INFO 19500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-19 13:38:30.340  INFO 19500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-19 13:38:30.356  INFO 19500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-06-19 13:38:30.796  INFO 19500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-19 13:38:30.803  INFO 19500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-19 13:38:30.803  INFO 19500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-19 13:38:30.873  INFO 19500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-19 13:38:30.873  INFO 19500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1010 ms
+2022-06-19 13:38:30.939  INFO 19500 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-19 13:38:31.032  INFO 19500 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-19 13:38:31.728  INFO 19500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-19 13:38:31.763  INFO 19500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-19 13:38:31.774  INFO 19500 --- [restartedMain] m.d.DockerComposeBootApplication         : Started DockerComposeBootApplication in 2.274 seconds (JVM running for 2.823)
+2022-06-19 13:38:36.628  INFO 19500 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-19 13:38:36.629  INFO 19500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-19 13:38:36.629  INFO 19500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-06-19 13:38:43.859 DEBUG 19500 --- [http-nio-8080-exec-6] m.d.mapper.StudentMapper.selectList      : ==>  Preparing: SELECT student_no,name,sex,telephone_number,family_telephone_number,birthday,address,id_card,email,dormitory_number,class_no,state,remarks FROM student
+2022-06-19 13:38:43.876 DEBUG 19500 --- [http-nio-8080-exec-6] m.d.mapper.StudentMapper.selectList      : ==> Parameters: 
+2022-06-19 13:38:43.935 DEBUG 19500 --- [http-nio-8080-exec-6] m.d.mapper.StudentMapper.selectList      : <==      Total: 607
+2022-06-19 13:44:47.052  INFO 19500 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-19 13:44:47.055  INFO 19500 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-19 13:45:00.299  INFO 8532 --- [restartedMain] m.d.DockerComposeBootApplication         : Starting DockerComposeBootApplication using Java 16.0.2 on mao with PID 8532 (H:\程序\大三下期\Docker_compose_boot\target\classes started by mao in H:\程序\大三下期\Docker_compose_boot)
+2022-06-19 13:45:00.300 DEBUG 8532 --- [restartedMain] m.d.DockerComposeBootApplication         : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-19 13:45:00.301  INFO 8532 --- [restartedMain] m.d.DockerComposeBootApplication         : The following 1 profile is active: "dev"
+2022-06-19 13:45:00.334  INFO 8532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-19 13:45:00.335  INFO 8532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-19 13:45:00.795  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-19 13:45:00.796  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-19 13:45:00.812  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-06-19 13:45:01.231  INFO 8532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-19 13:45:01.238  INFO 8532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-19 13:45:01.238  INFO 8532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-19 13:45:01.302  INFO 8532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-19 13:45:01.303  INFO 8532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 967 ms
+2022-06-19 13:45:01.366  INFO 8532 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-19 13:45:01.457  INFO 8532 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-19 13:45:02.147  INFO 8532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-19 13:45:02.182  INFO 8532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-19 13:45:02.192  INFO 8532 --- [restartedMain] m.d.DockerComposeBootApplication         : Started DockerComposeBootApplication in 2.224 seconds (JVM running for 2.807)
+2022-06-19 13:45:07.938  INFO 8532 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-19 13:45:07.938  INFO 8532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-19 13:45:07.939  INFO 8532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-19 13:45:08.236 DEBUG 8532 --- [http-nio-8080-exec-1] m.d.mapper.StudentMapper.selectList      : ==>  Preparing: SELECT student_no,name,sex,telephone_number,family_telephone_number,birthday,address,id_card,email,dormitory_number,class_no,state,remarks FROM student
+2022-06-19 13:45:08.251 DEBUG 8532 --- [http-nio-8080-exec-1] m.d.mapper.StudentMapper.selectList      : ==> Parameters: 
+2022-06-19 13:45:08.315 DEBUG 8532 --- [http-nio-8080-exec-1] m.d.mapper.StudentMapper.selectList      : <==      Total: 607
+2022-06-19 13:45:11.957 DEBUG 8532 --- [http-nio-8080-exec-2] m.d.mapper.StudentMapper.selectList      : ==>  Preparing: SELECT student_no,name,sex,telephone_number,family_telephone_number,birthday,address,id_card,email,dormitory_number,class_no,state,remarks FROM student
+2022-06-19 13:45:11.958 DEBUG 8532 --- [http-nio-8080-exec-2] m.d.mapper.StudentMapper.selectList      : ==> Parameters: 
+2022-06-19 13:45:11.975 DEBUG 8532 --- [http-nio-8080-exec-2] m.d.mapper.StudentMapper.selectList      : <==      Total: 607
+2022-06-19 13:45:12.383 DEBUG 8532 --- [http-nio-8080-exec-3] m.d.mapper.StudentMapper.selectList      : ==>  Preparing: SELECT student_no,name,sex,telephone_number,family_telephone_number,birthday,address,id_card,email,dormitory_number,class_no,state,remarks FROM student
+2022-06-19 13:45:12.383 DEBUG 8532 --- [http-nio-8080-exec-3] m.d.mapper.StudentMapper.selectList      : ==> Parameters: 
+2022-06-19 13:45:12.399 DEBUG 8532 --- [http-nio-8080-exec-3] m.d.mapper.StudentMapper.selectList      : <==      Total: 607
+2022-06-19 13:45:29.434 DEBUG 8532 --- [http-nio-8080-exec-4] m.d.mapper.StudentMapper.selectById      : ==>  Preparing: SELECT student_no,name,sex,telephone_number,family_telephone_number,birthday,address,id_card,email,dormitory_number,class_no,state,remarks FROM student WHERE student_no=?
+2022-06-19 13:45:29.435 DEBUG 8532 --- [http-nio-8080-exec-4] m.d.mapper.StudentMapper.selectById      : ==> Parameters: 202012340110(Long)
+2022-06-19 13:45:29.437 DEBUG 8532 --- [http-nio-8080-exec-4] m.d.mapper.StudentMapper.selectById      : <==      Total: 1
+2022-06-19 13:45:56.856 DEBUG 8532 --- [http-nio-8080-exec-5] m.d.mapper.StudentMapper.selectById      : ==>  Preparing: SELECT student_no,name,sex,telephone_number,family_telephone_number,birthday,address,id_card,email,dormitory_number,class_no,state,remarks FROM student WHERE student_no=?
+2022-06-19 13:45:56.857 DEBUG 8532 --- [http-nio-8080-exec-5] m.d.mapper.StudentMapper.selectById      : ==> Parameters: 202012340111(Long)
+2022-06-19 13:45:56.858 DEBUG 8532 --- [http-nio-8080-exec-5] m.d.mapper.StudentMapper.selectById      : <==      Total: 1
+2022-06-19 13:50:58.575  INFO 8532 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-19 13:50:58.579  INFO 8532 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-19 13:51:02.020  INFO 19940 --- [restartedMain] m.d.DockerComposeBootApplication         : Starting DockerComposeBootApplication using Java 16.0.2 on mao with PID 19940 (H:\程序\大三下期\Docker_compose_boot\target\classes started by mao in H:\程序\大三下期\Docker_compose_boot)
+2022-06-19 13:51:02.021 DEBUG 19940 --- [restartedMain] m.d.DockerComposeBootApplication         : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-19 13:51:02.022  INFO 19940 --- [restartedMain] m.d.DockerComposeBootApplication         : The following 1 profile is active: "dev"
+2022-06-19 13:51:02.056  INFO 19940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-19 13:51:02.056  INFO 19940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-19 13:51:02.515  INFO 19940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-19 13:51:02.516  INFO 19940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-19 13:51:02.532  INFO 19940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-06-19 13:51:02.953  INFO 19940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-19 13:51:02.960  INFO 19940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-19 13:51:02.960  INFO 19940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-19 13:51:03.024  INFO 19940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-19 13:51:03.024  INFO 19940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 967 ms
+2022-06-19 13:51:03.090  INFO 19940 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-19 13:51:03.181  INFO 19940 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-19 13:51:03.878  INFO 19940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-19 13:51:03.913  INFO 19940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-19 13:51:03.924  INFO 19940 --- [restartedMain] m.d.DockerComposeBootApplication         : Started DockerComposeBootApplication in 2.235 seconds (JVM running for 2.794)
+2022-06-19 13:51:17.541  INFO 19940 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
